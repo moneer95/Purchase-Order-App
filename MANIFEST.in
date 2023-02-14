@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include purshase_order *.css
+recursive-include purshase_order *.csv
+recursive-include purshase_order *.html
+recursive-include purshase_order *.ico
+recursive-include purshase_order *.js
+recursive-include purshase_order *.json
+recursive-include purshase_order *.md
+recursive-include purshase_order *.png
+recursive-include purshase_order *.py
+recursive-include purshase_order *.svg
+recursive-include purshase_order *.txt
+recursive-exclude purshase_order *.pyc
